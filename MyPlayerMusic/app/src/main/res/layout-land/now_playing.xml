@@ -1,0 +1,178 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.neelraj.android.muzik.LibraryFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+    <com.astuetz.PagerSlidingTabStrip
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dip"
+        android:background="@drawable/background_tabs" />
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/RelativeLayout1"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:screenOrientation="landscape"
+        android:orientation="vertical">
+
+        <!--
+                <LinearLayout
+                    android:id="@+id/ust"
+                    android:layout_width="fill_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:background="#b3c833" >
+
+                    <LinearLayout
+                        android:id="@+id/ust_sarki_bilgi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="0.07"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvSanatci"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rihanna"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="#ffffff" />
+
+                        <TextView
+                            android:id="@+id/tvAlbum"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Loud"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:textColor="#ffffff"
+                            android:textStyle="bold" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical" >
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/ucnokta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:src="@drawable/threedots" />
+                </LinearLayout>
+        -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="279dp">
+
+            <ImageView
+
+                android:id="@+id/albumArt"
+                android:layout_width="310dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:scaleType="fitXY"
+                android:src="@mipmap/cover_logo"
+
+                />
+
+            <include android:id="@+id/appbar"
+                android:layout_marginTop="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/app_bar_trans"></include>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/band"
+
+            android:orientation="vertical"
+            android:id="@+id/songinfo"
+            android:elevation="2dp"
+            android:layout_toRightOf="@+id/albumArt"
+            android:layout_toEndOf="@+id/albumArt"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true">
+            <TextView
+                android:id="@+id/infoSongTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play a song"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="50dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textSize="27sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#ffffff"/>
+
+
+            <TextView
+
+                android:id="@+id/infoAlbumTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play a song"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:layout_marginBottom="35dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/songCurrentDurationLabel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/white"
+
+                    />
+                <!-- Total Duration Label -->
+                <TextView
+                    android:id="@+id/songTotalDurationLabel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:layout_marginRight="15dp"
+                    android:textColor="@color/white"
+
+
+
+                    />
+            </LinearLayout>
+
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seekBar"
+                android:layout_below="@id/songinfo"
+                android:layout_marginTop="30dp" />
+
+        </LinearLayout>
+        </RelativeLayout>
+        <include android:id="@+id/player" layout="@layout/partial_playing"/>
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

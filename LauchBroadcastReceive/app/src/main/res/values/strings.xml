@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">LauchBroadcastReceive</string>
+    <string name="executarApp">Executar App</string>
+</resources>

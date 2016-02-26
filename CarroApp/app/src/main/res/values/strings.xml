@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CarroApp</string>
+    <string name="menu_cadastrar">Cadastrar</string>
+    <string name="menu_configuracao">Configuração</string>
+
+    <string name="tab_classicos">Classicos</string>
+    <string name="tab_esportivos">Esportivos</string>
+    <string name="tab_luxuosos">Luxuosos</string>
+</resources>

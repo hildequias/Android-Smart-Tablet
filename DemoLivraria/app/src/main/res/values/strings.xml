@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">DemoLivraria</string>
+    <string name="entrar">Entrar</string>
+    <string name="user_invalido">Usuário ou senha inválido!</string>
+    <string name="menu_cadastrar">Cadastrar</string>
+    <string name="Titulo">Título</string>
+    <string name="Autor">Autor</string>
+    <string name="ISBN">ISBN</string>
+    <string name="Editora">Editora</string>
+    <string name="Descrição">Descrição</string>
+    <string name="salvar">Salvar</string>
+</resources>

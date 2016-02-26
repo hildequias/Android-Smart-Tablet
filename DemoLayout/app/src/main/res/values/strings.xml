@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">DemoLayout</string>
+
+    <string name="label_usuario">Usuario</string>
+    <string name="hint_usuario">Informe seu Usuário</string>
+
+    <string name="label_password">Senha</string>
+    <string name="hint_password">Informe sua Senha</string>
+    <string name="botao_entrar">Entrar</string>
+
+    <string name="label_nome">Nome</string>
+    <string name="label_email">Email</string>
+    <string name="label_senha">Senha</string>
+    <string name="label_confirmar_senha">Confirmar Senha</string>
+    <string name="label_idade">Idade</string>
+    <string name="label_sexo">Sexo</string>
+    <string name="bt_cadastrar">Cadastrar</string>
+
+    <string name="feminino">Feminino</string>
+    <string name="masculino">Masculino</string>
+
+</resources>

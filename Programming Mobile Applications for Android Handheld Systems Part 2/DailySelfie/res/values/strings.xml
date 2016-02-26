@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Daily Selfie</string>
+	<string name="menu_camera">Selfie</string>
+	<string name="desc_image">Selfie</string>
+	<string name="title_detail_activity">Detail Photo</string>
+</resources>

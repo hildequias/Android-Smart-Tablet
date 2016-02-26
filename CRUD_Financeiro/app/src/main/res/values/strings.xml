@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">CRUD_Financeiro</string>
+    <string name="empty_msg">Você ainda não lançou nada \n =(</string>
+    <string name="value">Valor R$</string>
+    <string name="description">Descrição</string>
+    <string name="btnSave">Salvar</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="total">Total:</string>
+
+    <string-array name="array_spinner">
+        <item>Selecione</item>
+        <item>Receita</item>
+        <item>Despesa</item>
+    </string-array>
+
+</resources>

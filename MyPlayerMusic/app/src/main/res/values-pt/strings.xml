@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyPlayer Music</string>
+    <string name="action_contact">Contatos</string>
+    <string name="action_example">Ações de Exemplos</string>
+    <string name="action_settings">Configurações</string>
+    <string name="albums">Albuns</string>
+    <string name="artists">Artistas</string>
+    <string name="by">by</string>
+    <string name="drawer_item_albums">Albuns</string>
+    <string name="drawer_item_artists">Artistas</string>
+    <string name="drawer_item_equalizer"></string>
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_settings">Configurações</string>
+    <string name="drawer_item_songs">Todas as músicas</string>
+    <string name="error_initializing">Um erro ocorreu enquanto inicializava o player.</string>
+    <string name="error_playing_song">Um erro ocorreu enquanto tentava tocar essa música.</string>
+    <string name="navigation_drawer_close">Fechar Navigation Drawer</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="no_song_playing">Nenhuma musica que pode ser tocada, por favor selecione uma.</string>
+    <string name="playlists">Lista de Músicas</string>
+    <string name="songs">Músicas</string>
+    <string name="title_activity_song_list">Música Rápida</string>
+    <string name="title_section1">Seção 1</string>
+    <string name="title_section2">Seção 2</string>
+    <string name="title_section3">Seção 3</string>
+    <string name="title_activity_now_playing">Tocando agora</string>
+</resources>

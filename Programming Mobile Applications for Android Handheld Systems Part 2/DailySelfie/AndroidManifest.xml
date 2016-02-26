@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pixonsoft.dailyselfie"
+    android:versionCode="1"
+    android:versionName="1.0" >
+	
+    <uses-feature android:name="android.hardware.CAMERA" android:required="true"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_selfie_daily"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name="com.pixonsoft.dailyselfielab.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.pixonsoft.dailyselfielab.DetailActivity"
+            android:label="@string/title_detail_activity" >
+        </activity>
+        
+        <receiver android:name='com.pixonsoft.dailyselfielab.broadcastReceiver.DailySelfieBroadcastReceiver'/>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoBroadcastReceiver</string>
+    <string name="permission_broadcast">android.permission.RECEIVE_BOOT_COMPLETED</string>
+</resources>
